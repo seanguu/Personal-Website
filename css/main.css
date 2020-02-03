@@ -8,22 +8,14 @@ body {
 
 h1 {
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     text-align: center;
-    padding: 10px;
 }
 
 h2 {
     color: black;
     text-align: center;
-}
-
-/*style for main photo on main page*/
-div.mainphoto {
-    margin:0;
-    max-width: 50%;
-    min-width: 700px;
-    overflow: auto
 }
 
 img.main {
@@ -32,17 +24,15 @@ img.main {
 
 /*style for navigation tabs*/
 nav ul, footer ul {
-    background-color: #003366;
-    color:#d4af37;
     font-size: 1.1 em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 9px;
     list-style: none;
-    border:1px solid#d4af37;
+    text-align: center;
 }
 
 nav ul li, footer ul li {
-    color:#d4af37;
+    color:black;
     display: inline;
     margin-right: 20px;
 }
