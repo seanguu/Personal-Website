@@ -13,12 +13,21 @@ h1 {
     padding: 10px;
 }
 
+h2 {
+    color: black;
+    text-align: center;
+}
+
 /*style for main photo on main page*/
 div.mainphoto {
     margin:0;
     max-width: 50%;
     min-width: 700px;
     overflow: auto
+}
+
+img.main {
+    border-radius: 50%;
 }
 
 /*style for navigation tabs*/
