@@ -1,0 +1,47 @@
+/*style for the website background*/
+body {
+    color: white;
+    max-width: 70%;
+    min-width: 700px;
+    margin:0 auto; /* centering */
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*style for main photo on main page*/
+div.mainphoto {
+    margin:0;
+    max-width: 50%;
+    min-width: 700px;
+    overflow: auto
+}
+
+/*style for navigation tabs*/
+nav ul, footer ul {
+    background-color: #003366;
+    color:#d4af37;
+    font-size: 1.1 em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 9px;
+    list-style: none;
+    border:1px solid#d4af37;
+}
+
+nav ul li, footer ul li {
+    color:#d4af37;
+    display: inline;
+    margin-right: 20px;
+}
+
+/*standard page subdivision*/
+div.content {
+    background-color: #003366;
+    margin: 10px auto 20px;
+    border:1px solid#d4af37;
+    padding: 10px;
+}
